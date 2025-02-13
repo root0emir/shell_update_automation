@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# ----------------------------
-# guncelleme otomasyonu root0emir
-# ----------------------------
-
 # log dosyasının konumu
 LOG_FILE="/var/log/system_update.log"
 
@@ -11,7 +7,7 @@ LOG_FILE="/var/log/system_update.log"
 RED="\033[0;31m"
 GREEN="\033[0;32m"
 YELLOW="\033[0;33m"
-NC="\033[0m" # No Color
+NC="\033[0m" 
 
 # dagitim tespiti yapma os-release dosyasından 
 detect_distro() {
